@@ -6,6 +6,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Compensation-Management-Platform?style=flat-square&logo=github&color=blue)](https://github.com/ishandutta2007/Awesome-Compensation-Management-Platform/network/members)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Compensation-Management-Platform/blob/main/CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 <br/>
 
@@ -32,6 +33,7 @@
 - [🏢 SaaS & Hosted Compensation Platforms (Ranked by Scale / Valuation)](#-saas--hosted-compensation-platforms-ranked-by-scale--valuation)
 - [💻 Open-Source GitHub Projects (Ranked by Stars ⭐)](#-open-source-github-projects-ranked-by-stars-)
 - [🧩 Key Functional Building Blocks](#-key-functional-building-blocks)
+- [📈 Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚖️ Disclaimer & Compliance](#️-disclaimer--compliance)
 
@@ -95,6 +97,11 @@ When assembling a modern compensation management technology stack:
 - 🔍 **Internal Pay Equity & Transparency**: Implement [CeleryBand](https://github.com/maybeanerd/celeryband) or [Open Salaries](https://github.com/sizovs/open-salaries) guidelines to maintain salary transparency and eliminate unadjusted pay gaps.
 - 🧮 **Offer Modeling & Total Rewards**: Deploy [Comparator](https://github.com/DevonPeroutky/comparator) for candidate offer breakdowns, equity grant projections, and tax implications.
 - 🤖 **Automated Benchmarking & ML Analytics**: Leverage [Comp Pulse](https://github.com/jschulman/comp-pulse) alongside Python/R data pipelines for statistical compa-ratio analysis and market drift forecasting.
+
+---
+
+## 📈 Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Compensation-Management-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Compensation-Management-Platform&type=date&legend=top-left)
 
 ---
 
