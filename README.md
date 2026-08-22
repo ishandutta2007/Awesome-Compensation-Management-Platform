@@ -77,7 +77,7 @@ The table below lists the premier SaaS compensation platforms sorted in **descen
 
 Open-source compensation engines, internal salary transparency tools, pay equity algorithms, and payroll systems sorted by **GitHub Stargazers (descending)**.
 
-| Project & Repository | GitHub Stars Badge | Primary Language / Stack | Key Features & Focus |
+| Project & Repository | GitHub_Stars Badge | Primary Language / Stack | Key Features & Focus |
 | :--- | :--- | :--- | :--- |
 | **[Akaunting](https://github.com/akaunting/akaunting)** | [![GitHub stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers) | PHP / Laravel / Vue.js | Robust modular open-source accounting & payroll management platform with automated salary calculation, expense tracking, and contractor disbursements. |
 | **[Frappe HR / ERPNext](https://github.com/frappe/hrms)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) | Python / JavaScript | Full-featured open-source HRIS and Payroll engine featuring configurable salary structures, tax rules, attendance integration, merit incentives, and employee lifecycle management. |
