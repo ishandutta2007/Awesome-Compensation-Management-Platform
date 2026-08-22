@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19">
+        <animate attributeName="stop-color" values="#0b0f19;#111827;#0f172a;#0b0f19" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#1e1b4b">
+        <animate attributeName="stop-color" values="#1e1b4b;#1e293b;#311042;#1e1b4b" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#030712;#0f172a;#0f172a" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Dynamic Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.7" opacity="0.3" />
+      <circle cx="40" cy="0" r="1.5" fill="#6366f1" opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.03); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.85; }
+    }
+    @keyframes floatSlow {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes floatReverse {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(8px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -100; }
+    }
+    .floating-badge { animation: floatSlow 5s ease-in-out infinite; }
+    .floating-alt { animation: floatReverse 6s ease-in-out infinite; }
+    .pulse-glow { animation: pulse 4s ease-in-out infinite; }
+    .data-line { stroke-dasharray: 8 4; animation: dashMove 15s linear infinite; }
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 800; }
+    .subtitle-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 500; }
+    .tag-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 600; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="url(#grid)" />
+
+  <!-- Animated Ambient Orbs -->
+  <circle cx="180" cy="90" r="120" fill="#6366f1" opacity="0.15" filter="url(#glow)">
+    <animate attributeName="cx" values="180;220;180" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="90;130;90" dur="8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1020" cy="270" r="140" fill="#06b6d4" opacity="0.12" filter="url(#glow)">
+    <animate attributeName="cx" values="1020;980;1020" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="270;230;270" dur="9s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Decorative Wave / Compensation Analytics Curve -->
+  <path d="M 0 280 Q 300 220, 600 250 T 1200 190" fill="none" stroke="url(#textGrad)" stroke-width="3" opacity="0.4" class="data-line" />
+  <path d="M 0 310 Q 350 260, 700 290 T 1200 240" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.25" />
+
+  <!-- Interactive / Decorative Data Nodes & Chart Bars (Right Side) -->
+  <g class="floating-badge" transform="translate(930, 60)">
+    <!-- Card Frame -->
+    <rect width="210" height="230" rx="14" fill="#0f172a" fill-opacity="0.85" stroke="#334155" stroke-width="1.5" filter="url(#softGlow)" />
+    
+    <!-- Mini Header -->
+    <circle cx="24" cy="24" r="6" fill="#ef4444" opacity="0.8"/>
+    <circle cx="42" cy="24" r="6" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="60" cy="24" r="6" fill="#10b981" opacity="0.8"/>
+    <text x="80" y="28" fill="#94a3b8" font-size="11" class="tag-text">PAY BENCHMARK</text>
+
+    <!-- Mini Dynamic Bar Chart -->
+    <rect x="25" y="150" width="24" height="45" rx="4" fill="#6366f1" opacity="0.8">
+      <animate attributeName="height" values="45;65;45" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="150;130;150" dur="4s" repeatCount="indefinite" />
+    </rect>
+    <rect x="62" y="125" width="24" height="70" rx="4" fill="#818cf8" opacity="0.9">
+      <animate attributeName="height" values="70;90;70" dur="4.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="125;105;125" dur="4.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="99" y="100" width="24" height="95" rx="4" fill="#38bdf8" opacity="0.95">
+      <animate attributeName="height" values="95;110;95" dur="3.8s" repeatCount="indefinite" />
+      <animate attributeName="y" values="100;85;100" dur="3.8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="136" y="80" width="24" height="115" rx="4" fill="#2dd4bf">
+      <animate attributeName="height" values="115;130;115" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="80;65;80" dur="5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="173" y="110" width="12" height="85" rx="4" fill="#c084fc" opacity="0.85" />
+
+    <!-- Trend Line over chart -->
+    <path d="M 37 145 Q 110 95, 148 75" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="148" cy="75" r="4" fill="#fbbf24" filter="url(#softGlow)" />
+    
+    <text x="25" y="212" fill="#64748b" font-size="10" class="tag-text">P25  ·  P50  ·  P75  ·  P90</text>
+  </g>
+
+  <!-- Left Floating Badge (Pay Equity / Total Rewards) -->
+  <g class="floating-alt" transform="translate(60, 48)">
+    <rect width="180" height="64" rx="12" fill="#1e1b4b" fill-opacity="0.85" stroke="#4f46e5" stroke-width="1.2" filter="url(#softGlow)" />
+    <circle cx="32" cy="32" r="16" fill="#4338ca" />
+    <text x="26" y="38" font-size="16">⚖️</text>
+    <text x="60" y="28" fill="#e0e7ff" font-size="12" class="tag-text">Pay Equity 100%</text>
+    <text x="60" y="46" fill="#818cf8" font-size="10" class="subtitle-text">Unbiased Band Analytics</text>
+  </g>
+
+  <!-- Main Banner Header Titles -->
+  <g transform="translate(260, 105)">
+    <!-- Category Pill -->
+    <rect x="0" y="0" width="270" height="28" rx="14" fill="#312e81" stroke="#6366f1" stroke-width="1" opacity="0.9" />
+    <text x="14" y="18" fill="#a5b4fc" font-size="11" class="tag-text" letter-spacing="1.5">🚀 CURATED DIRECTORY &amp; ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="70" fill="#ffffff" font-size="38" class="title-text">
+      Awesome <tspan fill="url(#textGrad)">Compensation</tspan>
+    </text>
+    <text x="0" y="112" fill="#ffffff" font-size="34" class="title-text">
+      Management Platform
+    </text>
+
+    <!-- Subtitle / Value Proposition -->
+    <text x="0" y="145" fill="#94a3b8" font-size="15" class="subtitle-text">
+      Salary Benchmarking · Pay Equity · Merit Cycles · Total Rewards · Equity Planning
+    </text>
+
+    <!-- Key Feature Badges -->
+    <g transform="translate(0, 168)">
+      <!-- Badge 1: SaaS Comparison -->
+      <rect x="0" y="0" width="135" height="28" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="12" y="18" fill="#38bdf8" font-size="11" class="tag-text">💼 SaaS &amp; Market Data</text>
+
+      <!-- Badge 2: Open Source Tools -->
+      <rect x="145" y="0" width="145" height="28" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="157" y="18" fill="#2dd4bf" font-size="11" class="tag-text">⭐ Open-Source Tools</text>
+
+      <!-- Badge 3: Transparent Pay -->
+      <rect x="300" y="0" width="130" height="28" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="312" y="18" fill="#c084fc" font-size="11" class="tag-text">📊 Pay Transparency</text>
+
+      <!-- Badge 4: Free Tiers -->
+      <rect x="440" y="0" width="125" height="28" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="452" y="18" fill="#fbbf24" font-size="11" class="tag-text">🎁 Free Tier Limits</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line with Animation -->
+  <rect x="0" y="354" width="1200" height="6" fill="url(#textGrad)" />
+</svg>
