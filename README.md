@@ -42,83 +42,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Pave](https://www.pave.com/)**  
-
-  Modern compensation platform popular with tech companies, offering real-time market data, salary bands, equity visualization, offer management, and compensation planning workflows.
-
-
-
-- **[Ravio](https://ravio.com/)**  
-
-  European-focused compensation benchmarking and planning tool with live employer-sourced data, strong support for EU pay transparency requirements, and multi-country capabilities.
-
-
-
-- **[Figures](https://figures.hr/)**  
-
-  Compensation management platform emphasizing benchmarking, pay equity, and planning, with particular relevance for European markets and transparency regulations.
-
-
-
-- **[Option Impact / Radford (Aon)](https://radford.aon.com/)**  
-
-  Long-standing survey and compensation data providers offering detailed market pricing, executive compensation, and industry-specific benchmarks (including tech and life sciences).
-
-
-
-- **[PayScale](https://www.payscale.com/)**  
-
-  Established compensation data and software suite for market pricing, pay ranges, pay equity analysis, and compensation management across industries.
-
-
-
-- **[Salary.com](https://www.salary.com/)**  
-
-  Comprehensive total compensation management platform with CompAnalyst for market data, job pricing, salary structures, and analytics.
-
-
-
-- **[Compa](https://www.compa.com/)**  
-
-  Real-time compensation intelligence and offer comparison platform focused on data-driven pay decisions and market insights.
-
-
-
-- **[OpenComp](https://www.opencomp.com/)**  
-
-  Compensation management solution for building pay philosophies, ranges, and review cycles with market data and planning tools.
-
-
-
-- **[beqom](https://www.beqom.com/)**  
-
-  Enterprise-grade total compensation platform covering merit, bonus, long-term incentives, sales compensation, and global multi-entity complexity.
-
-
-
-- **[Workday Compensation](https://www.workday.com/)**  
-
-  Native compensation module within Workday HCM for planning, budgeting, merit cycles, and total rewards, tightly integrated with the broader Workday suite.
-
-
-
-- **[HRSoft](https://www.hrsoft.com/)**  
-
-  Specialist compensation management software focused on complex enterprise programs, workflow automation, and white-glove implementation support.
-
-
-
-- **[Oracle Compensation](https://www.oracle.com/)**  
-
-  Compensation capabilities within Oracle HCM Cloud supporting salary planning, variable pay, equity, and total rewards for Oracle-centric organizations.
-
-
-
-- **[Compport / CompXL / Payfactors](https://www.payscale.com/)**  
-
-  Additional established tools and data products (often under the PayScale umbrella or complementary) for compensation planning, survey data, and analytics.
+| Platform | Description | Starting Tier Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Pave](https://www.pave.com/)** | Modern compensation platform offering real-time market data, salary bands, equity visualization, and comp planning. | Paid tiers (Market Data Pro & Planning suite) start from **~$15,000/year** (typical contracts $15,000–$40,000/year depending on headcount). | **Market Data Lite** (Free forever): For startups/teams up to 200 employees; includes benchmark access across 200+ job families in the US + 1 chosen market and automated HRIS/ATS integrations. |
+| **[Ravio](https://ravio.com/)** | European-focused compensation benchmarking and planning tool with live employer-sourced data and EU pay transparency support. | Starts at **£5,000/year** (~$6,500/year) for core benchmarking (~500 employees baseline). | **3 Free Benchmarks**: No permanent free suite; provides access to 3 free job role benchmarks on-demand. Promotional partner access (1-year free benchmarking) available for eligible orgs (25+ employees). |
+| **[Figures](https://figures.hr/)** | Compensation management platform emphasizing European benchmarking, pay equity, and salary reviews. | Starts at **€1,700–€3,000/year** (~$1,850–$3,250/year) for baseline benchmarking packages. | **No free tier**; evaluation available via 14-day assisted demo trial upon sales engagement. |
+| **[Radford (Aon)](https://radford.aon.com/)** | Established survey and compensation data provider offering market pricing, executive compensation, and tech/life sciences benchmarks. | Single survey module access starts at **$5,000–$15,000/year** (enterprise multi-survey packages typically $40,000–$80,000+/year). | **No free tier/trial**; operates primarily on a "give-to-get" data participation model with discounted survey pricing for participants. |
+| **[PayScale](https://www.payscale.com/)** | Comprehensive compensation software suite (MarketPay, Insight Lab, Paycycle) for market pricing, pay ranges, and pay equity analysis. | Entry-level packages start at **$15,000/year** (average mid-market contracts $15,000–$50,000/year). | **Payfactors Free / Salary Checker**: Price limited basic jobs/reports for free forever; full enterprise platform offers custom guided sandbox access/demo rather than open self-serve trial. |
+| **[Salary.com](https://www.salary.com/)** | Total compensation management platform with CompAnalyst for market data, job pricing, salary structures, and analytics. | CompAnalyst starting tiers begin at **$8,000–$12,000/year** for small-to-midsize deployments. | **14-day free trial** for CompAnalyst Market Data (access US & Canada pay benchmarks); SHRM members receive 1 free benchmark job report. |
+| **[Compa](https://www.compa.com/)** | Real-time compensation intelligence and offer comparison platform focused on data-driven pay decisions. | Market Data Tier starts at **$35,000/year**; enterprise AI Agents tier custom-quoted. | **No free tier**; 30-day pilot evaluations available upon enterprise sales qualification. |
+| **[OpenComp](https://www.opencomp.com/)** | Compensation management solution for building pay philosophies, ranges, and review cycles with market data. | Comp Benchmarking tier starts at **$4,500/year** (Strategy tier at $8,500/year; Comp Cycles at $15,000/year). | **Free forever plan**: Free for startups and small organizations with up to 50 employees (includes basic compensation benchmarks); also offers a **14-day full feature free trial**. |
+| **[beqom](https://www.beqom.com/)** | Enterprise-grade total compensation platform covering merit, bonus, LTI, and sales comp for global enterprises. | Enterprise annual contracts start at **$50,000–$75,000/year** based on global entity scale and modules. | **No free tier / trial**; custom proofs of concept and guided product sandbox tours available via enterprise demo. |
+| **[Workday Compensation](https://www.workday.com/)** | Native compensation module within Workday HCM for planning, budgeting, merit cycles, and total rewards. | Module pricing typically calculated at **$34–$42 PEPM** (Per Employee Per Month), bundled into annual HCM contracts starting at **$100,000+/year**. | **No free tier / trial**; enterprise evaluation access provided exclusively through guided solution previews and RFPs. |
+| **[HRSoft](https://www.hrsoft.com/)** | Specialist compensation management software (Grow, Scale, Elevate tiers) focused on complex enterprise cycles. | Entry package ("Grow") starts at **$10,000–$18,000/year** (or ~$3–$5 PEPM depending on volume). | **No open free trial**; 30-day guided evaluation pilot offered upon sales consultation. |
+| **[Oracle Compensation](https://www.oracle.com/)** | Compensation capabilities within Oracle Cloud HCM supporting salary planning, variable pay, and equity. | Base Cloud HCM with Compensation starts at **$28–$38 PEPM** (Per Employee Per Month) with typical contract minimums of 1,000 users (~$33,600/year minimum base). | **Oracle Cloud 30-day Free Trial**: Includes $300 cloud credits, though enterprise HCM Compensation configuration requires enterprise demo sandbox. |
+| **[CompXL](https://www.salary.com/)** | Dedicated compensation planning and merit modeling tool (part of Salary.com). | Starts at **$35 per employee/month** (~$12,000/year minimum baseline implementation). | **No open free trial**; guided sandbox demo with customer sample spreadsheet data available on request. |
+| **[Compport](https://www.compport.com/)** | Global compensation and total rewards software for salary reviews, incentive compensation, and pay equity. | Starts at **$12,000/year** (or ~$1.50–$3 PEPM depending on organizational scale). | **No self-serve free tier**; offers a 14-day guided proof-of-concept / sandbox trial following a sales demonstration. |
 
 
 
